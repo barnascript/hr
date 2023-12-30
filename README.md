@@ -4,7 +4,7 @@
 
 This project aims to leverage MySQL and Tableau for a comprehensive HR analysis, examining gender, race, termination rates, net change, city distribution, age, and average tenure to provide actionable insights into workforce dynamics and guide informed decision-making for organizational development.
 
-## Purposes Of The Project
+## Purpose Of The Project
 The purposes of this project include leveraging MySQL to analyze HR data, exploring dimensions such as gender, race, termination rates, net change, city distribution, age, and average tenure, with the goal of extracting meaningful insights to inform strategic HR decisions and enhance organizational effectiveness.
 
 ## About Data
@@ -38,21 +38,7 @@ This focused analysis list aims to provide actionable insights into key dimensio
 
 ## Approach Used
 
-#### Data Wrangling: This is the first step where inspection of data is done to make sure NULL values and missing values are detected and data replacement methods are used to replace, missing or NULL values.
-
-1. Build a database
-2. Create table and insert the data.
-3. Select columns with null values in them. There are no null values in our database as in creating the tables, we set NOT NULL for each field, hence null values are filtered out.
-
-#### Feature Engineering: This will help use generate some new columns from existing ones.
-
-
-
-4. Add a new column named  <span style="color:grey">
-time_of_day
-</span>to give insight of sales in the Morning, Afternoon and Evening. This will help answer the question on which part of the day most sales are made.
-5. Add a new column named day_name that contains the extracted days of the week on which the given transaction took place (Mon, Tue, Wed, Thur, Fri). This will help answer the question on which week of the day each branch is busiest.
-6. Add a new column named month_name that contains the extracted months of the year on which the given transaction took place (Jan, Feb, Mar). Help determine which month of the year has the most sales and profit.
+**Data Wrangling:**  In the data cleaning process using MySQL, diverse transformations, including format standardization, type modification, null value handling, and age derivation, were applied to ensure consistency and integrity in preparation for subsequent analysis.
    
 #### Exploratory Data Analysis (EDA): Exploratory data analysis is done to answer the listed questions and aims of this project.
 
@@ -61,48 +47,29 @@ time_of_day
 
 ## Business Questions To Answer
 
-### Generic Question
+**Exploratory Data Analysis Questions:**
 
-1. How many unique cities does the data have?
-2. In which city is each branch?
+1. What is the Gender breakdown of employees in the company?
 
+2. What is the Race/Ethnicity breakdown of employees in the company?
 
-### Product
+3. What is the age distribution of employees in the company?
 
-3. How many unique product lines does the data have?
-4. What is the most common payment method?
-5. What is the most selling product line?
-6. What is the total revenue by month?
-7. What month had the largest COGS?
-8. What product line had the largest revenue?
-9. What is the city with the largest revenue?
-10. What product line had the largest VAT?
-11. Fetch each product line and add a column to those product line showing "Good", "Bad". Good if its greater than average sales
-12. Which branch sold more products than average product sold?
-13. What is the most common product line by gender?
-14. What is the average rating of each product line?
+4. How many employees work at headquarters vs remote locations?
 
+5. What is the average length of employment for employees who have been terminated?
 
-### Sales
+6. How does the gender distribution vary across departments?
 
-15. Number of sales made in each time of the day per weekday
-16. Which of the customer types brings the most revenue?
-17. Which city has the largest tax percent/ VAT (Value Added Tax)?
-18. Which customer type pays the most in VAT?
+7. What is the distribution of job titles across the country?
 
-    
-### Customer
+8. Which department has the highest termination rate?
 
-19. How many unique customer types does the data have?
-20. How many unique payment methods does the data have?
-21. What is the most common customer type?
-22. Which customer type buys the most?
-23. What is the gender of most of the customers?
-24. What is the gender distribution per branch?
-25. Which time of the day do customers give most ratings?
-26. Which time of the day do customers give most ratings per branch?
-27. Which day fo the week has the best avg ratings?
-28. Which day of the week has the best average ratings per branch?
+9. What is the distribution of employees by city and state?
+
+10. How has the company's employee count changed based on hire and term dates?
+
+11. What is the tenure distribution for each department?
 
 
 ## Code
