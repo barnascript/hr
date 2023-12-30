@@ -2,8 +2,8 @@
 
 ![Tableau Dashboard](https://imagetolink.com/ib/SiHQ2PMycs)
 
-## About
 
+## About
 This project aims to leverage MySQL and Tableau for a comprehensive HR analysis, examining gender, race, termination rates, net change, city distribution, age, and average tenure to provide actionable insights into workforce dynamics and guide informed decision-making for organizational development.
 
 ## Purpose Of The Project
