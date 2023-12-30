@@ -1,6 +1,6 @@
 # HR Employment Analysis
 
-![Tableau Dashboard](https://imagetolink.com/ib/SiHQ2PMycs)
+![HR Employment Dashboard](https://github.com/barnascript/hr/assets/142545558/7a6caf80-883a-473e-93b2-2c257835df4b)
 
 
 ## About
